@@ -2,6 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const fs  = require('fs');
 
+client.login('TOKEN');
+
 loadNews();
 setInterval(loadNews, 600000);
 
@@ -73,5 +75,3 @@ client.on("message", msg => {
     console.log("New message has been sended!")
   }
 });
-
-client.login('ODIwNzkwNzc1MTU4ODAwMzk1.YE6S-g.G1Eovbcs0lqd_d9sU-iPGDsqPk4');
