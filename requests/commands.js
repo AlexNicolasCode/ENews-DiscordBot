@@ -6,7 +6,7 @@ client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.login('ODIwNzkwNzc1MTU4ODAwMzk1.YE6S-g.dG8Nrs57_ZiFl0RpWTDut0ESfA8');
+client.login('TOKEN');
 
 setTimeout(function() {
   console.log('ready!');
